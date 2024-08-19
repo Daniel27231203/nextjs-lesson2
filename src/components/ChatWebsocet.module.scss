@@ -1,0 +1,87 @@
+.ChatWebSocet {
+  background: purple;
+  h1 {
+    font-size: 25px;
+  }
+  p {
+    font-size: 20px;
+    color: rgb(21, 19, 19);
+    background: white;
+    padding: 5px;
+    border-radius: 15px;
+  }
+  h2 {
+    text-align: center;
+    padding: 15px 0;
+    border-bottom: 2px solid rgb(180, 164, 164);
+  }
+  .content {
+    background-image: url("https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?cs=srgb&dl=pexels-pixabay-531880.jpg&fm=jpg");
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    .de {
+      margin-top: 40px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      padding: 20px;
+      overflow-y: scroll;
+      height: 80vh;
+      .uuserTitle {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 10px;
+        .userTitle {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          img {
+            width: 35px;
+            border-radius: 50%;
+          }
+        }
+      }
+
+      .uuserDaniel {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 10px;
+        .userDaniel {
+          display: flex;
+          align-items: center;
+          justify-content: end;
+          gap: 10px;
+          img {
+            width: 35px;
+            border-radius: 50%;
+          }
+        }
+      }
+    }
+    .de::-webkit-scrollbar {
+      display: none;
+    }
+
+    .send {
+      padding: 20px 0;
+      input {
+        width: 350px;
+        background: white;
+        color: black;
+        outline: none;
+        border: none;
+        border-radius: 15px;
+        padding: 10px;
+      }
+      button {
+        padding: 10px 30px;
+        border: none;
+        background: white;
+        color: black;
+        border-radius: 15px;
+      }
+    }
+  }
+}
